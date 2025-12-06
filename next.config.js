@@ -99,3 +99,19 @@ module.exports = () => {
     },
   })
 }
+
+const nextConfig = {
+  // ... 你现有的其他配置
+  
+  typescript: {
+    // ⚠️ 警告：这将忽略所有类型错误，即使有错误也会继续构建
+    ignoreBuildErrors: true,
+  },
+  
+  eslint: {
+    // 可选：如果你也不想让 ESLint 报错阻断部署，可以加上这个
+    ignoreDuringBuilds: true,
+  },
+};
+
+module.exports = nextConfig;

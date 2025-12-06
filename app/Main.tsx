@@ -44,7 +44,7 @@ export default function Home({ posts }) {
         <section className="relative h-[600px] flex items-center justify-center text-center text-white rounded-lg overflow-hidden">
           {/* 1. 背景图 */}
           <Image 
-            src="/image/monstera-albo-hero.jpg" 
+            src="/images/monstera-albo-hero.jpg" 
             alt="Monstera Albo" 
             fill 
             className="object-cover -z-20" // 放在最底层 
