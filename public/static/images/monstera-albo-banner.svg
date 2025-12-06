@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Define gradients for the background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecfdf5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1fae5;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Define gradients for the leaf -->
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Define gradient for variegation -->
+    <linearGradient id="variegationGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9fafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3f4f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Large Monstera leaf on the left -->
+  <g transform="translate(200, 100) scale(1.5)">
+    <!-- Main leaf shape -->
+    <path d="M100,40 C130,40 160,70 160,100 C160,130 130,160 100,160 C70,160 40,130 40,100 C40,70 70,40 100,40 Z" fill="url(#leafGradient)"/>
+    
+    <!-- Variegation sections -->
+    <path d="M100,40 C120,50 140,70 150,100 C140,120 120,140 100,150 C110,120 120,90 100,40 Z" fill="url(#variegationGradient)" opacity="0.8"/>
+    <path d="M80,60 C90,70 95,85 90,100 C85,110 75,120 70,130 C75,110 80,90 80,60 Z" fill="url(#variegationGradient)" opacity="0.6"/>
+    
+    <!-- Leaf veins -->
+    <path d="M100,40 L100,160" stroke="#059669" stroke-width="2" fill="none"/>
+    <path d="M100,70 L130,90" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,90 L130,110" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,110 L130,130" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,70 L70,90" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,90 L70,110" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,110 L70,130" stroke="#059669" stroke-width="1.5" fill="none"/>
+    
+    <!-- Monstera holes (fenestrations) -->
+    <ellipse cx="90" cy="80" rx="8" ry="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <ellipse cx="110" cy="100" rx="6" ry="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <ellipse cx="95" cy="120" rx="7" ry="9" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+  </g>
+  
+  <!-- Small Monstera leaf on the right -->
+  <g transform="translate(900, 150) scale(0.8)">
+    <!-- Main leaf shape -->
+    <path d="M100,40 C130,40 160,70 160,100 C160,130 130,160 100,160 C70,160 40,130 40,100 C40,70 70,40 100,40 Z" fill="url(#leafGradient)"/>
+    
+    <!-- Variegation sections -->
+    <path d="M100,40 C120,50 140,70 150,100 C140,120 120,140 100,150 C110,120 120,90 100,40 Z" fill="url(#variegationGradient)" opacity="0.8"/>
+    
+    <!-- Leaf veins -->
+    <path d="M100,40 L100,160" stroke="#059669" stroke-width="2" fill="none"/>
+    <path d="M100,70 L130,90" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,90 L130,110" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,110 L130,130" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,70 L70,90" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,90 L70,110" stroke="#059669" stroke-width="1.5" fill="none"/>
+    <path d="M100,110 L70,130" stroke="#059669" stroke-width="1.5" fill="none"/>
+    
+    <!-- Monstera holes (fenestrations) -->
+    <ellipse cx="90" cy="80" rx="8" ry="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <ellipse cx="110" cy="100" rx="6" ry="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+  </g>
+  
+  <!-- Title and subtitle -->
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#064e3b">
+    Monstera Albo Guide
+  </text>
+  
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#047857">
+    Your Complete Resource for Growing and Caring
+  </text>
+  
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#047857">
+    for Beautiful Variegated Monsteras
+  </text>
+  
+  <!-- Website URL -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="25" text-anchor="middle" fill="#065f46">
+    monstera-albo.vercel.app
+  </text>
+</svg>
