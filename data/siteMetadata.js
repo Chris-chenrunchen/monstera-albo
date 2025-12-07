@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'Monstera Albo Guide',
   author: 'Monstera Albo Expert',
   headerTitle: 'Monstera Albo',
-  description: 'A comprehensive guide to growing and caring for Monstera Albo plants. Learn about propagation, care tips, and troubleshooting for this beautiful variegated houseplant.',
+  description:
+    'A comprehensive guide to growing and caring for Monstera Albo plants. Learn about propagation, care tips, and troubleshooting for this beautiful variegated houseplant.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://monstera-albo.vercel.app',
@@ -45,6 +46,10 @@ const siteMetadata = {
     // },
     // // Simple Analytics
     // simpleAnalytics: {},
+    // Google Analytics
+    googleAnalytics: {
+      gaMeasurementId: process.env.NEXT_PUBLIC_GA_ID,
+    },
   },
   newsletter: {
     // Please refer to Mailchimp documentation for these settings
@@ -60,7 +65,8 @@ const siteMetadata = {
     // provider: 'mailchimp' | 'convertkit' | 'buttondown' | 'resend' | 'klaviyo' | 'custom',
     provider: 'mailchimp',
     mailchimp: {
-      endpoint: 'https://monstera-albo.us1.list-manage.com/subscribe/post?u=1234567890abcdef&id=1234567890',
+      endpoint:
+        'https://monstera-albo.us1.list-manage.com/subscribe/post?u=1234567890abcdef&id=1234567890',
     },
     // convertkit: {
     //   formUid: 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6',
