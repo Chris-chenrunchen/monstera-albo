@@ -7,7 +7,7 @@ const siteMetadata = {
     'A comprehensive guide to growing and caring for Monstera Albo plants. Learn about propagation, care tips, and troubleshooting for this beautiful variegated houseplant.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://monstera-albo.vercel.app',
+  siteUrl: 'https://www.monstera.top',
   siteRepo: 'https://github.com/username/monstera-albo',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/monstera-albo-banner.svg`,
