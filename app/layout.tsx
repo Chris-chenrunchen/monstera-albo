@@ -76,6 +76,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <link
         rel="icon"
         type="image/png"
+        sizes="64x64"
+        href={`${basePath}/static/favicons/favicon-64x64.png`}
+      />
+      <link
+        rel="icon"
+        type="image/png"
         sizes="32x32"
         href={`${basePath}/static/favicons/favicon-32x32.png`}
       />
