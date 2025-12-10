@@ -1,8 +1,10 @@
 {
-  "monstera-albo": 3,
-  "plant-care": 3,
+  "monstera-albo": 4,
+  "plant-care": 4,
   "houseplants": 1,
-  "variegated-plants": 3,
+  "variegated-plants": 4,
+  "light-requirements": 1,
+  "grow-lights": 1,
   "propagation": 1,
   "advanced-care": 1,
   "troubleshooting": 1
